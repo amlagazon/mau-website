@@ -1,0 +1,14 @@
+ .item{
+  width: 10vw;
+  justify-content: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+/*#menubar-container{
+    position: fixed;
+}
+*/
