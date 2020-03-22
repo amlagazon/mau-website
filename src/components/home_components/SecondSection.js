@@ -2,6 +2,8 @@ import React, { Component, createRef } from "react";
 import "../css/home_components/SecondSection.css";
 import Menubar from "../menu/Menubar";
 import ThirdSection from './ThirdSection.js'
+import HobbiesSection from './HobbiesSection.js'
+import LifeSection from './LifeSection.js'
 import { Card, Icon, Image } from 'semantic-ui-react'
 
 class SecondSection extends Component{
@@ -14,6 +16,8 @@ class SecondSection extends Component{
                     <div id="life-section"></div>
                     <div id="hobbies-section"></div>
                 </div>
+                <LifeSection />
+                <HobbiesSection />
 
                 <ThirdSection />
             </div>

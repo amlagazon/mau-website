@@ -3,7 +3,8 @@
   justify-content: center;
 }
 
-.menu {
+.ui.menu {
+    background-color: white;
     display: flex;
     justify-content: center;
 }

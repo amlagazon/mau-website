@@ -1,24 +1,24 @@
 #second-section{
-    background-color: pink;
     display: flex;
     flex-direction: row;
     justify-content: center;
     height: 100vh;
     width: 100%;
+    background-color: #26648E;
 }
 
 #life-section{
     margin-top: 5%;
     margin-bottom: auto;
-    height: 70vh;
-    width: 40%;
-    background-color: red;
+    height: 60vh;
+    width: 25%;
+    background-color: #53D2DC;
 }
 
 #hobbies-section{
     margin-top: auto;
     margin-bottom: 5%;
-    height: 70vh;
-    width: 40%;
-    background-color: green;
+    height: 60vh;
+    width: 25%;
+    background-color: #4F8FC0;
 }
