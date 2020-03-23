@@ -22,3 +22,27 @@
     width: 25%;
     background-color: #4F8FC0;
 }
+
+#life-section h4{
+    display: flex;
+    margin-left: 1em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: white;
+}
+
+h4 .bottom{
+    display: flex;
+    margin-left: 1em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: white;
+}
+
+#hobbies-section h4{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 1em;
+}

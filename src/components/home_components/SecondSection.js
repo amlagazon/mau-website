@@ -13,8 +13,14 @@ class SecondSection extends Component{
             <div id="whole-second-container" ref={this.contextRef}>
                 <Menubar contextRef={this.contextRef}/>
                 <div id="second-section">
-                    <div id="life-section"></div>
-                    <div id="hobbies-section"></div>
+                    <div id="life-section">
+                        <h4>know more</h4>
+                        <h4 class="bottom">about me!</h4>
+                    </div>
+                    <div id="hobbies-section">
+                        <h4>check out</h4>
+                        <h4>what I do</h4>
+                    </div>
                 </div>
                 <LifeSection />
                 <HobbiesSection />

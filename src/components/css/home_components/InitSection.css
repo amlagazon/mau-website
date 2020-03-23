@@ -1,13 +1,16 @@
 h1 {
 	font-size: 12em !important;
+    font-family: 'Alfa Slab One';
+    color: #FFC872;
 }
 
 h2 {
     font-size: 4em !important;
+    font-family: 'Lato', sans-serif;
 }
 
 #init-section {
-	background-color: #FFC872;
+	background-color: white;
 	height: 100vh;
 	width: 100%;
 	display: flex;
@@ -26,5 +29,24 @@ h2 {
     display: flex;
     justify-content: center;
 	background-color: transparent;
+}
+
+.rainbow-text-animated {
+    background: linear-gradient(to right, #6666ff, #0099ff , #00ff00, #ff3399, #6666ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: rainbow_animation 6s ease-in-out infinite;
+    background-size: 400% 100%;
+}
+
+@keyframes rainbow_animation {
+    0%,100% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 100% 0;
+    }
 }
 
