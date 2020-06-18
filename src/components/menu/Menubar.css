@@ -1,12 +1,28 @@
  .item{
   width: 10vw;
   justify-content: center;
+  color: white;
 }
 
 .ui.menu {
-    background-color: white;
-    display: flex;
-    justify-content: center;
+	background-color: #15965C !important;
+  border: 0 none !important;
+  box-shadow: none;
+  display: flex;
+  justify-content: center;
+}
+
+.ui.menu .item{
+	color: white;
+}
+
+.ui.secondary.pointing.menu .active.item{
+	color: #3d3d3d;
+	border-color: #3d3d3d;
+}
+
+.ui.menu .item:hover{
+	color: #3d3d3d !important;
 }
 
 /*#menubar-container{

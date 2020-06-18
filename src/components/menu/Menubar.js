@@ -19,7 +19,7 @@ class Menubar extends Component {
     return (
       <div id="menubar-container">
         <Sticky context={this.props.contextRef}>
-          <Menu borderless size="huge" attached='top' >
+          <Menu pointing secondary size="huge" attached='top' >
             <Menu.Item
               name="home"
               active={activeItem === "home"}

@@ -12,8 +12,9 @@ class InitSection extends Component {
 			<div id="main-container">
 				<div id="init-section">
 					<div id="init-text" class="col-md-8">
-						<h1>Hello.</h1>
-						<h2 class="rainbow rainbow-text-animated">I'm Mau. Explore.</h2>
+						<h1>We'll take you where</h1>
+						<h1>you need to go.</h1>
+						<h2>Supply your shuttle needs</h2>
 					</div>
 					<Button id="init-button" size='huge' animated='vertical' onClick={(e) => this.handleClick()}>
 			      <Button.Content hidden>Explore</Button.Content>
