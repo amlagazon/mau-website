@@ -7,23 +7,23 @@
     background-color: white;
 }
 
-#life-section{
-    margin-top: 5%;
-    margin-bottom: auto;
-    height: 60vh;
+#left-panel{
+    margin-top: 10%;
+    /*margin-bottom: auto;*/
+    height: 50vh;
     width: 25%;
     background-color: #53D2DC;
 }
 
-#hobbies-section{
+#right-panel{
     margin-top: auto;
-    margin-bottom: 5%;
-    height: 60vh;
+    margin-bottom: 10%;
+    height: 50vh;
     width: 25%;
     background-color: #4F8FC0;
 }
 
-#life-section h4{
+#left-panel h4{
     display: flex;
     margin-left: 1em;
     font-family: 'Roboto', sans-serif;
@@ -41,7 +41,7 @@ h4 .bottom{
     color: white;
 }
 
-#hobbies-section h4{
+#right-panel h4{
     display: flex;
     justify-content: flex-end;
     margin-right: 1em;

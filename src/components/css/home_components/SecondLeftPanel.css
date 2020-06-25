@@ -1,0 +1,40 @@
+#second-panel{
+    /*height: 100vh;*/
+    width: 100%;
+    background-color: red;
+    display: inline-block; /* change the default display type to inline-block */
+    overflow: hidden;      /* hide the overflow */
+}
+
+.card:hover .card-img,
+.card:focus .card-img {
+	transition: all .2s ease-in-out;
+  transform: scale(1.05);
+  opacity:0.5;
+}
+
+.card-img-overlay>h4, .card-img-overlay>p{
+    visibility:hidden;
+}
+
+.card-img-overlay:hover h4, .card-img-overlay:hover p{
+    visibility: visible;
+    animation: moving .2s forwards;
+    transition: all .2s ease-in-out;
+}
+
+.card-text {
+    position: relative;
+    /*-webkit-animation: moving;*/
+    
+}
+		
+@-webkit-keyframes moving {
+    from {top: 0px;}
+    to {top: 10px;}
+}
+
+@keyframes moving {
+    from {top: 0px;}
+    to {top: 10px;}
+}

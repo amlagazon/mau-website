@@ -17,12 +17,12 @@
 }
 
 .ui.secondary.pointing.menu .active.item{
-	color: #3d3d3d;
-	border-color: #3d3d3d;
+	color: #272727;
+	border-color: #272727;
 }
 
 .ui.menu .item:hover{
-	color: #3d3d3d !important;
+	color: #272727 !important;
 }
 
 /*#menubar-container{

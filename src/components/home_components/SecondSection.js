@@ -3,8 +3,10 @@ import "../css/home_components/SecondSection.css";
 import Menubar from "../menu/Menubar";
 import ThirdSection from './ThirdSection.js'
 import HobbiesSection from './HobbiesSection.js'
-import LifeSection from './LifeSection.js'
-import { Card, Icon, Image } from 'semantic-ui-react'
+import SecondLeftPanel from './SecondLeftPanel.js'
+import SecondRightPanel from './SecondRightPanel.js'
+// import { Card, Icon, Image } from 'semantic-ui-react'
+
 
 class SecondSection extends Component{
     contextRef = createRef();
@@ -13,17 +15,13 @@ class SecondSection extends Component{
             <div id="whole-second-container" ref={this.contextRef}>
                 <Menubar contextRef={this.contextRef}/>
                 <div id="second-section">
-                    <div id="life-section">
-                        <h4>know more</h4>
-                        <h4 class="bottom">about me!</h4>
+                    <div id="left-panel">
+                        <SecondLeftPanel />
                     </div>
-                    <div id="hobbies-section">
-                        <h4>check out</h4>
-                        <h4>what I do</h4>
+                    <div id="right-panel">
+                        <SecondRightPanel />
                     </div>
                 </div>
-                <LifeSection />
-                <HobbiesSection />
 
                 <ThirdSection />
             </div>
